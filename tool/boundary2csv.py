@@ -14,7 +14,7 @@ with open(fn + '.csv','w') as outfile:
   
   # write the CSV header
   writer = unicodecsv.writer(outfile)
-  writer.writerow(['id','geosjon','type','name'])
+  writer.writerow(['id','geojson','type','name'])
 
   with open(fn + '.geojson', 'rb') as infile:
     boundaries = json.load(infile)
@@ -25,4 +25,4 @@ with open(fn + '.csv','w') as outfile:
       areaName = area['properties']['NAME']
       areaType = area['properties']['TYPE']
       
-      writer.writerow([areaId, areaJSON, areaName, areaType])
+      writer.writerow([areaId, areaJSON, areaType, areaName])
