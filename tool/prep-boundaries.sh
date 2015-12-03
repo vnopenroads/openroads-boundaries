@@ -22,7 +22,6 @@ mkdir ../tmp-export
 for i in $(ls $SOURCE); do
 
   if [ "${args[0]}" = "test" ]; then
-    echo TEST
     # Filter the shapefiles to only contain the admin areas we're interested in
     ogr2ogr -where 'ID_OR in ('$TEST_AREAS')' tmp_areas.shp $i
   else
