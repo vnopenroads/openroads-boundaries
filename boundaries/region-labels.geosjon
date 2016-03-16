@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Cordillera Administrative region (CAR)" }, "geometry": { "type": "Point", "coordinates": [ 121.052087352238374, 17.35221111737064 ] } },
+{ "type": "Feature", "properties": { "NAME": "National Capital region (NCR)" }, "geometry": { "type": "Point", "coordinates": [ 121.036473818924932, 14.599242791153655 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region I (Ilocos region)" }, "geometry": { "type": "Point", "coordinates": [ 120.48761037317874, 16.905663652024291 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region II (Cagayan Valley)" }, "geometry": { "type": "Point", "coordinates": [ 121.729296915306449, 17.202800966419012 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region V (Bicol region)" }, "geometry": { "type": "Point", "coordinates": [ 123.475922378788454, 13.272428546495577 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region VI (Western Visayas)" }, "geometry": { "type": "Point", "coordinates": [ 122.650991136822, 10.838800122361747 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region VII (Central Visayas)" }, "geometry": { "type": "Point", "coordinates": [ 123.61855748461268, 9.923131946604327 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region VIII (Eastern Visayas)" }, "geometry": { "type": "Point", "coordinates": [ 124.952809027769263, 11.538510285581243 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region XIII (Caraga)" }, "geometry": { "type": "Point", "coordinates": [ 125.737559571060402, 8.616029170434777 ] } },
+{ "type": "Feature", "properties": { "NAME": "Autonomous region in Muslim Mindanao (ARMM)" }, "geometry": { "type": "Point", "coordinates": [ 124.254986755254848, 7.332311873786518 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region IX (Zamboanga Peninsula)" }, "geometry": { "type": "Point", "coordinates": [ 122.857919618183089, 7.913843884819323 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region X (Northern Mindanao)" }, "geometry": { "type": "Point", "coordinates": [ 124.663640439918893, 8.194533171557467 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region XI (Davao Region)" }, "geometry": { "type": "Point", "coordinates": [ 125.940810994024048, 7.572381376767498 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region XII (Soccsksargen)" }, "geometry": { "type": "Point", "coordinates": [ 124.817737849788514, 6.355439517467522 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region III (Central Luzon)" }, "geometry": { "type": "Point", "coordinates": [ 120.814474593955552, 15.388646867192945 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region IV-A (Calabarzon)" }, "geometry": { "type": "Point", "coordinates": [ 121.553078129921317, 14.178388732058181 ] } },
+{ "type": "Feature", "properties": { "NAME": "Region IV-B (Mimaropa)" }, "geometry": { "type": "Point", "coordinates": [ 119.074871757776563, 10.179898842669742 ] } }
+]
+}
