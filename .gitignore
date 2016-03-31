@@ -1,1 +1,4 @@
 tmp-export/*
+admin-boundaries-db.csv
+node_modules
+*npm-debug.log
