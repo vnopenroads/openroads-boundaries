@@ -21,6 +21,7 @@
   "dependencies": {
     "csv": "^0.4.6",
     "fs": "0.0.2",
+    "geojson-extent": "^0.3.2",
     "lodash": "^4.7.0"
   },
   "devDependencies": {
