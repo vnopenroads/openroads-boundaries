@@ -1,3 +1,3 @@
-mapbox-studio-default-style
+Open Roads Philippines Boundary Files
 ===========================
-Default style used by new style projects in Mapbox Studio.
+Map style & cartocss for the boundaries as seen on Open Roads.

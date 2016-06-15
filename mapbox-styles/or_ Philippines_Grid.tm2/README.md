@@ -1,3 +1,3 @@
-mapbox-studio-default-style
+Open Roads Philippines Grid Style
 ===========================
-Default style used by new style projects in Mapbox Studio.
+Map style & cartocss for the grid overlay as seen on Open Roads.
