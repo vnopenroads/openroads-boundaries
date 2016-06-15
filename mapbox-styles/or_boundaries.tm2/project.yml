@@ -1,0 +1,35 @@
+_prefs: 
+  mapid: openroads.91bb102d
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 118.7859
+  - 9.9646
+  - 13
+description: Boundary data for Open Roads
+format: "png8:m=h"
+interactivity_layer: ''
+layers: 
+  - Palawan
+  - region-boundaries-no-maritime
+  - pro-boundaries-no-maritime
+  - mun-boundaries-no-maritime
+  - Palawan_labels
+  - mun-labels
+  - prov-labels
+  - region-labels
+maxzoom: 22
+minzoom: 0
+name: or_Boundaries
+source: "mapbox:///openroads.c5fca1e9,openroads.44b46021"
+styles: 
+  - style.mss
+template: ''
