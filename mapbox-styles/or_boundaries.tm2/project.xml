@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">118.7859,9.9646,13</Parameter>
+  <Parameter name="description"><![CDATA[Boundary data for Open Roads]]></Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[or_Boundaries]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///openroads.c5fca1e9,openroads.44b46021]]></Parameter>
+</Parameters>
+
+
+<Style name="Palawan" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <LineSymbolizer stroke-opacity="0.5" stroke-linejoin="round" stroke-width="2" stroke="#070707" stroke-dasharray="8, 8" />
+  </Rule>
+</Style>
+<Layer name="Palawan"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Palawan</StyleName>  </Layer>
+
+<Style name="region-boundaries-no-maritime" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="6" stroke-opacity="0.75" stroke-linejoin="round" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <LineSymbolizer stroke-opacity="0.75" stroke-width="3" stroke-linejoin="round" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <LineSymbolizer stroke-opacity="0.5" stroke-width="2" stroke-linejoin="round" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="2" stroke-opacity="0.25" stroke-linejoin="round" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <LineSymbolizer stroke-opacity="0.25" stroke-linejoin="round" stroke-width="1.75" stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="region-boundaries-no-maritime"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>region-boundaries-no-maritime</StyleName>  </Layer>
+
+<Layer name="pro-boundaries-no-maritime"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="mun-boundaries-no-maritime" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke-dasharray="8, 8" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <LineSymbolizer stroke-linejoin="round" stroke-dasharray="8, 8" stroke-width="1.5" stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="mun-boundaries-no-maritime"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>mun-boundaries-no-maritime</StyleName>  </Layer>
+
+<Style name="Palawan_labels" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <TextSymbolizer size="14" face-name="Roboto Regular" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <TextSymbolizer size="11" face-name="Roboto Regular" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="Palawan_labels"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Palawan_labels</StyleName>  </Layer>
+
+<Style name="mun-labels" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <TextSymbolizer size="18" face-name="Roboto Regular" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <TextSymbolizer size="14" face-name="Roboto Regular" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <TextSymbolizer face-name="Roboto Regular" fill="#efefef" halo-fill="#333333" size="12" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="mun-labels"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>mun-labels</StyleName>  </Layer>
+
+<Style name="prov-labels" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <TextSymbolizer size="18" halo-radius="2" face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <TextSymbolizer size="15" halo-radius="2" face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <TextSymbolizer size="14" halo-radius="2" face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <TextSymbolizer face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" size="10" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="prov-labels"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>prov-labels</StyleName>  </Layer>
+
+<Style name="region-labels" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <TextSymbolizer size="24" face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <TextSymbolizer size="20" face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <TextSymbolizer size="16" face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <TextSymbolizer size="14" face-name="Roboto Bold" fill="#efefef" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <TextSymbolizer face-name="Roboto Bold" fill="#efefef" size="12" halo-fill="#333333" halo-radius="1.5" wrap-width="50" ><![CDATA[[NAME]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="region-labels"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>region-labels</StyleName>  </Layer>
+
+</Map>
